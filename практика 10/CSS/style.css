@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: #f7f7f7;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header .container{
+    background-image: url(../img/header-background-image.png);
+    background-position: right top;
+    background-size: 506px 550px;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.navbar a{
+    color: #7a5cab;
+    font-weight: 700px;
+}
+.header__slogan{
+    width: 650px;
+    text-align: start;
+}
+.header__main-slogan{
+    font-weight: 700;
+    color: #7a5cab;
+    font-size: 40px;
+    padding-top: 80px;
+}
+.header__note{
+    font-size: 25px;
+}
+
+form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+form input{
+    height: 40px;
+    text-align: center;
+}
+input[type="email"]{
+    border-radius: 25px 0 0 25px;
+    border: solid 1px #7a5cab;
+    border-right: none;
+}
+input[type="submit"]{
+    border-radius: 0 25px 25px 0;
+    border: solid 0px white;
+    background: linear-gradient(90deg, rgba(174,143,224,1) 0%, rgba(200,177,233,1) 100%);
+    color: white;
+    font-weight: 500;
+}
+.secrion-service__main-title, .section-functions__main-title, .section-functions__updates-titles{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 50px;
+}
+.shadow-lg{
+    max-width: 350px;
+    max-height: 300px;
+    text-align: center;
+}
+.our-service{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+h2{
+    font-weight: 600;
+
+}
+.our-service div img{
+    height: 100px;
+    width: 100px;
+}
+.section-functions .container{
+    background-image: url(../img/image\ 4.png);
+    color: white;
+    border-radius: 20px;
+    max-width: 600px;
+}
+.functions-wrapper{
+    display: flex;
+}
+.section-finctions__item{
+    display: flex;
+    max-width: 600px;
+    text-align: justify;
+    margin: 15px;
+    font-weight: 600;
+    text-indent: 25px;
+}
+.section-finctions__item img{
+    width: 64px;
+    height: 64px;
+    margin: 0 50px;
+}
+.functions-column{
+    margin: 50px;
+}
+.section-updates .container{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.updates-info img{
+    height: 450px;
+}
+.updates-info{
+    display: flex;
+}
+.updates-info ul, li{
+    margin: 15px;
+}
+.section-download .container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section-download img{
+    width: 300px;
+}
+footer .container{
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(90deg, rgba(174,143,224,1) 0%, rgba(200,177,233,1) 100%);
+    color: white;
+}
+.footer__social-media{
+    margin: 15px;
+}
+.navbar-brand{
+    color: #7a5cab;
+    font-weight: 900;
+}
+.nav-link{
+    color: #7a5cab;
+    font-weight: 600;
+}
+@media screen and (max-width:992px){
+    header .container{
+        background-size: 315px 380px;
+        height: 400px;
+    }
+    .header__main-slogan{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    form{
+        margin-top: 25px;
+    }
+    .secrion-service__main-title, .section-functions__main-title, .section-functions__updates-titles{
+        padding-top: 40px;
+    }
+    .section-functions .container{
+        max-width: 800px;
+    }
+    .updates-info img{
+        height: 350px;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:768px){
+    .header__slogan{
+        width: 440px;
+    }
+    .header__main-slogan{
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    .header__note{
+        font-size: 22px;
+    }
+    .secrion-service__main-title, .section-functions__main-title, .section-functions__updates-titles{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .shadow-lg{
+        max-width: 250px;
+        max-height: 350px;
+        text-align: center;
+    }
+    .shadow-lg img{
+        width: 80px;
+        height: 80px;
+    }
+    .section-functions .container{
+        max-width: 1000px;
+    }
+    .section-finctions__item img{
+        width: 44px;
+        height: 44px;
+        margin-top: 80px;
+    }
+    .updates-info img{
+        height: 230px;
+        margin-top: 170px;
+    }
+    .section-download img{
+        width: 200px;
+    }
+    footer h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:576px){
+    header .container{
+        background-size:215px 280px
+    }
+    .header__slogan{
+        width: 576px;
+    }
+    .header__main-slogan{
+        font-size: 20px;
+        padding-top: 15px;
+        max-width: 350px;
+    }
+    .header__note{
+        font-size: 15px;
+    }
+    form{
+        margin-top: 50px;
+    }
+    .header__text{
+        font-size: 15px;
+        max-width: 350px;
+    }
+    .secrion-service__main-title, .section-functions__main-title, .section-functions__updates-titles{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .our-service{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 10px;
+        justify-content: center;
+    }
+    .our-service img{
+        width: 50px;
+        height: 50px;
+    }
+    .functions-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .reverse-item{
+        flex-direction: row-reverse;
+    }
+    .section-finctions__item{
+        margin: 0;
+    }
+    .section-finctions__item img{
+        margin-top: 10px;
+    }
+    .updates-info img{
+        display: block;
+        margin-top: -20px;
+    }
+    .download-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
